@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{72B1742D-8B47-5674-38E0-CEB6F281400B}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MultiplayerProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

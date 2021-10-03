@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "MultiplayerProject (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerProject Mac Debug Build",
+			"program": "/Users/yongqiu/Documents/Unreal Projects/MultiplayerProject/Binaries/Mac/UE4-Mac-Debug.app/Contents/MacOS/UE4-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiplayerProject (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerProject Mac DebugGame Build",
+			"program": "/Users/yongqiu/Documents/Unreal Projects/MultiplayerProject/Binaries/Mac/UE4-Mac-DebugGame.app/Contents/MacOS/UE4-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiplayerProject (Development)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerProject Mac Development Build",
+			"program": "/Users/yongqiu/Documents/Unreal Projects/MultiplayerProject/Binaries/Mac/UE4.app/Contents/MacOS/UE4",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiplayerProject (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerProject Mac Shipping Build",
+			"program": "/Users/yongqiu/Documents/Unreal Projects/MultiplayerProject/Binaries/Mac/UE4-Mac-Shipping.app/Contents/MacOS/UE4-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiplayerProject (Test)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerProject Mac Test Build",
+			"program": "/Users/yongqiu/Documents/Unreal Projects/MultiplayerProject/Binaries/Mac/UE4-Mac-Test.app/Contents/MacOS/UE4-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiplayerProjectEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerProjectEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.27/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/yongqiu/Documents/Unreal Projects/MultiplayerProject/MultiplayerProject.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiplayerProjectEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerProjectEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.27/Engine/Binaries/Mac/UE4Editor-Mac-DebugGame.app/Contents/MacOS/UE4Editor-Mac-DebugGame",
+			"args": [
+				"/Users/yongqiu/Documents/Unreal Projects/MultiplayerProject/MultiplayerProject.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiplayerProjectEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "MultiplayerProjectEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.27/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/yongqiu/Documents/Unreal Projects/MultiplayerProject/MultiplayerProject.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/Users/yongqiu/Documents/Unreal Projects/MultiplayerProject/MultiplayerProject.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Users/Shared/Epic Games/UE_4.27"
+		}
+	]
+}
